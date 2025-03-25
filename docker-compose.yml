@@ -1,0 +1,25 @@
+version: '3'
+services:
+  vnf01-slim:
+    build: ./vnf01-slim
+    container_name: vnf01-slim
+    ports:
+      - "9001:9001"
+      - "9030:9030"
+    mem_limit: 128m
+
+  vnf01-balanced:
+    build: ./vnf01-balanced
+    container_name: vnf01-balanced
+    ports:
+      - "9011:9001"
+      - "9031:9030"
+    mem_limit: 160m
+
+  vnf01-dev:
+    build: ./vnf01-dev
+    container_name: vnf01-dev
+    ports:
+      - "9021:9001"
+      - "9032:9030"
+    mem_limit: 256m

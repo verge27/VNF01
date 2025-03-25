@@ -1,0 +1,9 @@
+RunAsDaemon 0
+ORPort 9001
+DirPort 9030
+Nickname BalancedRelay
+ContactInfo balanced@mesh.local
+ExitRelay 0
+SocksPort 0
+ControlPort 9051
+Log notice stdout

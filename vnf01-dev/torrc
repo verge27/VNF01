@@ -1,0 +1,9 @@
+RunAsDaemon 0
+ORPort 9001
+DirPort 9030
+Nickname DevDebugRelay
+ContactInfo dev@mesh.local
+ExitRelay 0
+SocksPort 9050
+ControlPort 9051
+Log debug file /var/log/tor.log

@@ -1,0 +1,9 @@
+RunAsDaemon 0
+ORPort 9001
+DirPort 9030
+Nickname UltraSlimRelay
+ContactInfo none@nowhere.local
+ExitRelay 0
+SocksPort 0
+ControlPort 0
+Log notice stdout
