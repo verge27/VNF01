@@ -12,7 +12,7 @@ A collection of minimalist, dockerized Virtual Network Function (VNF) containers
 
 ## 🚀 Run a VNF Node
 
-### ▶️ Option A: Use the selector script (recommended)
+### ▶️ Use the selector script (recommended)
 
 ```bash
 ./mesh-up.sh
