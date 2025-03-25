@@ -1,6 +1,6 @@
 # Mesh VNF Toaster Repo
 
-A collection of minimalist, dockerized Virtual Network Function (VNF) containers for privacy-enhancing mesh networks. Each version trades off size vs capability.
+A collection of minimalist, dockerised Virtual Network Function (VNF) containers for privacy-enhancing mesh networks. Each version trades off size vs capability.
 
 ## 🧱 Versions
 
